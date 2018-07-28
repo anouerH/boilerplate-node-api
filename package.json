@@ -1,4 +1,5 @@
 {
+  "licence": "MIT",
   "scripts": {
     "start": "nodemon app.js",
     "test": "yarn run test:unit && yarn run test:func",
@@ -7,16 +8,17 @@
     "hooks": "ln -s $(pwd)/tools/git_hooks/pre-push $(pwd)/.git/hooks/pre-push"
   },
   "dependencies": {
-    "@ekino/veggies": "^0.6.0",
+    "@ekino/config": "^0.3.0",
     "axios": "^0.18.0",
-    "chai": "^4.1.2",
-    "cucumber": "^4.2.1",
     "koa": "^2.5.2",
     "koa-router": "^7.4.0",
-    "lodash": "^4.17.10",
-    "nodemon": "^1.18.3"
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "nodemon": "^1.18.3",
+    "@ekino/veggies": "^0.6.0"
   }
 }

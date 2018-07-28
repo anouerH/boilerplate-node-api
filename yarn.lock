@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@ekino/config@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@ekino/config/-/config-0.3.0.tgz#808b86345e5631bc1fdc2d339a291d2a4e7500ee"
+  dependencies:
+    js-yaml "3.x.x"
+    lodash "4.x.x"
+
 "@ekino/veggies@^0.6.0":
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@ekino/veggies/-/veggies-0.6.0.tgz#80d4aa12bfd900adc3222bcc6db2b288234c2f5c"
@@ -1208,7 +1215,7 @@ jest-get-type@^21.2.0:
   version "21.2.0"
   resolved "https://registry.yarnpkg.com/jest-get-type/-/jest-get-type-21.2.0.tgz#f6376ab9db4b60d81e39f30749c6c466f40d4a23"
 
-js-yaml@^3.8.4:
+js-yaml@3.x.x, js-yaml@^3.8.4:
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
   dependencies:
@@ -1347,7 +1354,7 @@ lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
 
-lodash@^4.17.10, lodash@^4.17.4:
+lodash@4.x.x, lodash@^4.17.10, lodash@^4.17.4:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 

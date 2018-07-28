@@ -1,0 +1,8 @@
+file:
+    /data/package.json:
+        exists: true
+    /data/yarn.lock:
+        exists: true
+http:
+  http://localhost:4000:
+    status: 404
