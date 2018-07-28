@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "yarn run test:unit && yarn run test:func",
+    "test:unit": "mocha test/**/*.test.js",
+    "test:func": "cucumber-js"
+  },
+  "dependencies": {
+    "@ekino/veggies": "^0.6.0",
+    "axios": "^0.18.0",
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "koa": "^2.5.2",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.10",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
