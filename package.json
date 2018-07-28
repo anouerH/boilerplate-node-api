@@ -3,7 +3,8 @@
     "start": "nodemon app.js",
     "test": "yarn run test:unit && yarn run test:func",
     "test:unit": "mocha test/**/*.test.js",
-    "test:func": "cucumber-js"
+    "test:func": "cucumber-js",
+    "hooks": "ln -s $(pwd)/tools/git_hooks/pre-push $(pwd)/.git/hooks/pre-push"
   },
   "dependencies": {
     "@ekino/veggies": "^0.6.0",

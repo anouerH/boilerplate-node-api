@@ -12,7 +12,7 @@ describe('Feature', () => {
 
         expect(dto.contracts(expectedApiJson)).to.be.eql([{
             name: "Rouen",
-            countryCode: "R"
+            countryCode: "FR"
         }])
     })
 })
